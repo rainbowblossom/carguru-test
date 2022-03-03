@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6437253700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 698139900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99976000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuyCarsStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1703631200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I mouse hover on \"buy + sell\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy + sell",
+                  "offset": 18
+                }
+              ],
+              "location": "BuyCarsStepdefs.iMouseHoverOnTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164641900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click \"Search Cars\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search Cars",
+                  "offset": 9
+                }
+              ],
+              "location": "BuyCarsStepdefs.iClickLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "BuyCarsStepdefs.iNavigateToNewAndUsedCarSearchPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select make \"Mitsubishi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mitsubishi",
+                  "offset": 15
+                }
+              ],
+              "location": "BuyCarsStepdefs.iSelectMake(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select model \"Nimbus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nimbus",
+                  "offset": 16
+                }
+              ],
+              "location": "BuyCarsStepdefs.iSelectModel(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select location \"NSW-South Coast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW-South Coast",
+                  "offset": 19
+                }
+              ],
+              "location": "BuyCarsStepdefs.iSelectLocation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select price \"$10000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$10000",
+                  "offset": 16
+                }
+              ],
+              "location": "BuyCarsStepdefs.iSelectPrice(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "BuyCarsStepdefs.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see the make \"Mitsubishi\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mitsubishi",
+                  "offset": 23
+                }
+              ],
+              "location": "BuyCarsStepdefs.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "buy.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4377951300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Find the dealers and verify the dealers are in list",
+        "description": "",
+        "id": "find-the-dealers-and-verify;find-the-dealers-and-verify-the-dealers-are-in-list",
+        "after": [
+          {
+            "result": {
+              "duration": 707110100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuyCarsStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click ‘Find a Dealer’",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to ‘car-dealers’ page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I should see the dealer names \u003cdealersName\u003e are display on page",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "dealersName"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "3 Point Motors Epping"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "4WD Specialist Group"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "5 Star Auto"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "A \u0026 M Car Sales Pty Ltd"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "A1 MOTORS COMPANY"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "ANDREA MOTOR SERVICE"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Find the dealers and verify",
+    "description": "",
+    "id": "find-the-dealers-and-verify",
+    "keyword": "Feature",
+    "uri": "finddealers.feature"
+  }
+]
